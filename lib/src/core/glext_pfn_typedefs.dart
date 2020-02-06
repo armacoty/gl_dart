@@ -1534,20 +1534,20 @@ typedef PFNGLGETNHISTOGRAMPROC = Void Function(Uint32 target, Uint8 reset,
 typedef PFNGLGETNMINMAXPROC = Void Function(Uint32 target, Uint8 reset,
     Uint32 format, Uint32 type, Int32 bufSize, Pointer<Void> values);
 typedef PFNGLTEXTUREBARRIERPROC = Void Function();
-typedef PFNGLSPECIALIZESHADERPROC = Void Function(
-    Uint32 shader,
-    Pointer<Utf8> pEntryPoint,
-    Uint32 numSpecializationConstants,
-    Pointer<Uint32> pConstantIndex,
-    Pointer<Uint32> pConstantValue);
-typedef PFNGLMULTIDRAWARRAYSINDIRECTCOUNTPROC = Void Function(Uint32 mode,
-    Pointer<Void> indirect, Int64 drawcount, Int32 maxdrawcount, Int32 stride);
-typedef PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTPROC = Void Function(
-    Uint32 mode,
-    Uint32 type,
-    Pointer<Void> indirect,
-    Int64 drawcount,
-    Int32 maxdrawcount,
-    Int32 stride);
-typedef PFNGLPOLYGONOFFSETCLAMPPROC = Void Function(
-    Float factor, Float units, Float clamp);
+// typedef PFNGLSPECIALIZESHADERPROC = Void Function(
+//     Uint32 shader,
+//     Pointer<Utf8> pEntryPoint,
+//     Uint32 numSpecializationConstants,
+//     Pointer<Uint32> pConstantIndex,
+//     Pointer<Uint32> pConstantValue);
+// typedef PFNGLMULTIDRAWARRAYSINDIRECTCOUNTPROC = Void Function(Uint32 mode,
+//     Pointer<Void> indirect, Int64 drawcount, Int32 maxdrawcount, Int32 stride);
+// typedef PFNGLMULTIDRAWELEMENTSINDIRECTCOUNTPROC = Void Function(
+//     Uint32 mode,
+//     Uint32 type,
+//     Pointer<Void> indirect,
+//     Int64 drawcount,
+//     Int32 maxdrawcount,
+//     Int32 stride);
+// typedef PFNGLPOLYGONOFFSETCLAMPPROC = Void Function(
+//     Float factor, Float units, Float clamp);

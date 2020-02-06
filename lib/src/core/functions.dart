@@ -1140,10 +1140,10 @@ class Gl {
     this.getnHistogram = dylib.lookup<NativeFunction<TglGetnHistogram_Native>>('glGetnHistogram').asFunction();
     this.getnMinmax = dylib.lookup<NativeFunction<TglGetnMinmax_Native>>('glGetnMinmax').asFunction();
     this.textureBarrier = dylib.lookup<NativeFunction<TglTextureBarrier_Native>>('glTextureBarrier').asFunction();
-    this.specializeShader = dylib.lookup<NativeFunction<TglSpecializeShader_Native>>('glSpecializeShader').asFunction();
-    this.multiDrawArraysIndirectCount = dylib.lookup<NativeFunction<TglMultiDrawArraysIndirectCount_Native>>('glMultiDrawArraysIndirectCount').asFunction();
-    this.multiDrawElementsIndirectCount = dylib.lookup<NativeFunction<TglMultiDrawElementsIndirectCount_Native>>('glMultiDrawElementsIndirectCount').asFunction();
-    this.polygonOffsetClamp = dylib.lookup<NativeFunction<TglPolygonOffsetClamp_Native>>('glPolygonOffsetClamp').asFunction();
+    // this.specializeShader = dylib.lookup<NativeFunction<TglSpecializeShader_Native>>('glSpecializeShader').asFunction();
+    // this.multiDrawArraysIndirectCount = dylib.lookup<NativeFunction<TglMultiDrawArraysIndirectCount_Native>>('glMultiDrawArraysIndirectCount').asFunction();
+    // this.multiDrawElementsIndirectCount = dylib.lookup<NativeFunction<TglMultiDrawElementsIndirectCount_Native>>('glMultiDrawElementsIndirectCount').asFunction();
+    // this.polygonOffsetClamp = dylib.lookup<NativeFunction<TglPolygonOffsetClamp_Native>>('glPolygonOffsetClamp').asFunction();
   }
 /*
 ########     ###    ########  ########    ##   
@@ -2274,9 +2274,9 @@ class Gl {
   TglGetnHistogram_Func getnHistogram;
   TglGetnMinmax_Func getnMinmax;
   TglTextureBarrier_Func textureBarrier;
-  TglSpecializeShader_Func specializeShader;
-  TglMultiDrawArraysIndirectCount_Func multiDrawArraysIndirectCount;
-  TglMultiDrawElementsIndirectCount_Func multiDrawElementsIndirectCount;
-  TglPolygonOffsetClamp_Func polygonOffsetClamp;
+  // TglSpecializeShader_Func specializeShader;
+  // TglMultiDrawArraysIndirectCount_Func multiDrawArraysIndirectCount;
+  // TglMultiDrawElementsIndirectCount_Func multiDrawElementsIndirectCount;
+  // TglPolygonOffsetClamp_Func polygonOffsetClamp;
 
 }

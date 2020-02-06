@@ -4,7 +4,7 @@
 
 __Without Extendions :(__
 
-_OpenGL Version 4.6_
+_OpenGL Version ~~4.6~~ 4.5_
 
 ## Alternatives
 
