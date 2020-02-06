@@ -1,5 +1,5 @@
 name: gl_dart
-version: 0.0.1-dev.3
+version: 0.0.1-alpha.1
 author: Vinogadov Alexander <armacoty@protonmail.com>
 description: dart:ffi bindings for OpenGL
 

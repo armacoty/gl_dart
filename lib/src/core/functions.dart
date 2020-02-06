@@ -1,9 +1,12 @@
+import 'dart:io';
 import 'gl_typedefs.dart';
 import 'dart:ffi';
 import 'glext_typedefs.dart';
 
 class Gl {
   Gl() {
+    if(!Platform.isLinux)
+      throw Exception("Only Ubuntu Bionic 18.04 is currently supported.");
     String path = "/usr/lib/x86_64-linux-gnu/libGL.so";
     final dylib = DynamicLibrary.open(path);
 /*
