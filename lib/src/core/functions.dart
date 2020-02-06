@@ -232,7 +232,7 @@ class Gl {
     this.arrayElement = dylib.lookup<NativeFunction<TglArrayElement_Native>>('glArrayElement').asFunction();
     this.drawArrays = dylib.lookup<NativeFunction<TglDrawArrays_Native>>('glDrawArrays').asFunction();
     this.drawElements = dylib.lookup<NativeFunction<TglDrawElements_Native>>('glDrawElements').asFunction();
-    this.interleavedArrays = dylib.lookup<NativeFunction<TglInterleavedArrays_Native>>('interleavedArrays').asFunction();
+    this.interleavedArrays = dylib.lookup<NativeFunction<TglInterleavedArrays_Native>>('glInterleavedArrays').asFunction();
     this.shadeModel = dylib.lookup<NativeFunction<TglShadeModel_Native>>('glShadeModel').asFunction();
     this.lightf = dylib.lookup<NativeFunction<TglLightf_Native>>('glLightf').asFunction();
     this.lighti = dylib.lookup<NativeFunction<TglLighti_Native>>('glLighti').asFunction();
