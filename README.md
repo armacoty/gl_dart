@@ -8,7 +8,7 @@ Add this to `pubspec.yaml`:
 
 ```
 dependencies:
-  gl_dart: any
+  gl_dart: ^0.0.1
 ```
 
 Import it:
