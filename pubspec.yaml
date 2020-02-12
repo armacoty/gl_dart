@@ -2,6 +2,7 @@ name: gl_dart
 version: 0.0.1
 author: Vinogadov Alexander <armacoty@protonmail.com>
 description: dart:ffi bindings for OpenGL
+homepage: https://github.com/armacoty/gl_dart
 
 environment:
   sdk: '>=2.0.0 <3.0.0'
