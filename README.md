@@ -8,8 +8,7 @@ Add this to `pubspec.yaml`:
 
 ```
 dependencies:
-  gl_dart:
-    git: https://github.com/armacoty/gl_dart.git
+  gl_dart: any
 ```
 
 Import it:
