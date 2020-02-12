@@ -30,6 +30,18 @@ enum GlVersion {
   GL_VERSION_4_6,
 }
 
+/// Class of binders of a dynamic library `opengl32.dll`/`libgl.so`
+/// It takes the path to the dynamic library as an argument `customPath`.
+/// If `customPath` is `null` and it will open the default files: `C:\Windows\System32\opengl32.dll` or `/usr/lib/x86_64-linux-gnu/libGL.so`
+/// 
+/// Example: 
+/// 
+/// ```
+/// gl = Gl(
+///   customPath: "<path-to-gl-file>",
+///   version: GlVersion.GL_VERSION_X_X
+/// );
+/// ```
 class Gl {
   TwglGetProcAddress_Func wglGetProcAddress;
 
@@ -7981,3 +7993,5 @@ class Gl {
   TglMultiDrawElementsIndirectCount_Func multiDrawElementsIndirectCount;
   TglPolygonOffsetClamp_Func polygonOffsetClamp;
 }
+
+// My VSCode is slow. :)
