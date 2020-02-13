@@ -33,9 +33,9 @@ enum GlVersion {
 /// Class of binders of a dynamic library `opengl32.dll`/`libgl.so`
 /// It takes the path to the dynamic library as an argument `customPath`.
 /// If `customPath` is `null` and it will open the default files: `C:\Windows\System32\opengl32.dll` or `/usr/lib/x86_64-linux-gnu/libGL.so`
-/// 
-/// Example: 
-/// 
+///
+/// Example:
+///
 /// ```
 /// gl = Gl(
 ///   customPath: "<path-to-gl-file>",
@@ -45,8 +45,8 @@ enum GlVersion {
 class Gl {
   TwglGetProcAddress_Func wglGetProcAddress;
 
-  Gl({String customPath = null, GlVersion version = GlVersion.GL_VERSION_4_0}) {
-    String path = null;
+  Gl({String customPath, GlVersion version = GlVersion.GL_VERSION_4_0}) {
+    String path;
     if (customPath != null) {
       path = customPath;
     } else {
@@ -55,9 +55,10 @@ class Gl {
       if (Platform.isWindows) path = "C:\\Windows\\System32\\opengl32.dll";
     }
 
-    if (path == null)
+    if (path == null) {
       throw Exception(
           "Platform is not currently supported. (platform = ${Platform.operatingSystemVersion})");
+    }
     final dylib = DynamicLibrary.open(path);
 
     if (Platform.isWindows) {
