@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.0] - 12.02.2020
+
+### Changed
+
+- Autoformatting
+- The experiments with the OpenGL API are finished. OpenGL extensions remain to be considered.
+
 ## [0.0.1+1] - 13.02.2020
 
 ### Added
