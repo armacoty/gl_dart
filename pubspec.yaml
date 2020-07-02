@@ -1,6 +1,5 @@
 name: gl_dart
 version: 0.2.0
-author: Vinogadov Alexander <armacoty@protonmail.com>
 description: dart:ffi bindings for OpenGL library. It connects the opengl32.dll/libgl.so library and loads the functions of the specified version of opengl.
 homepage: https://github.com/armacoty/gl_dart
 
