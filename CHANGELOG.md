@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.2.0] - 02.07.2020
+
+### Added
+
+- `gl_dart/gl_dart.dart` for manual initialization of the OpenGL.
+
 ## [0.1.0] - 12.02.2020
 
 ### Changed
