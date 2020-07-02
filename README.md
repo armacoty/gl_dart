@@ -6,14 +6,14 @@
 
 Add this to `pubspec.yaml`:
 
-```
+```yaml
 dependencies:
-  gl_dart: ^0.1.0
+  gl_dart: ^0.2.0
 ```
 
 Import it:
 
-```
+```dart
 import 'package:gl_dart/gl.dart';
 ```
 
@@ -21,16 +21,13 @@ __Notice #1: `C:\Windows\System32\opengl32.dll` or `/usr/lib/x86_64-linux-gnu/li
 
 For manual OpenGL initialization:
 
-```
-import 'package:gl_dart/gl.dart';
+```dart
+import 'package:gl_dart/gl_dart.dart';
+Gl gl = new Gl(
+  customPath: '<path-to-gl-file>',
+  version: GlVersion.GL_VERSION_X_X
+);
 //...
-void main(){
-  gl = Gl(
-    customPath: '<path-to-gl-file>',
-    version: GlVersion.GL_VERSION_X_X
-  );
-  //...
-}
 ```
 
 __Notice #2: on Windows `wglGetProcAddress` is used__
