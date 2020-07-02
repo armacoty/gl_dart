@@ -6,7 +6,7 @@
 /// Docs for FFI:
 /// * [api.dart.dev/stable/2.7.1/dart-ffi/dart-ffi-library.html](https://api.dart.dev/stable/2.7.1/dart-ffi/dart-ffi-library.html)
 /// * [pub.dev/packages/ffi](https://pub.dev/packages/ffi)
-library gl;
+library gl_dart;
 
 export 'src/core/gl_constants.dart';
 export 'src/core/gl_pfn_typedefs.dart';
