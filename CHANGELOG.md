@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.2.1] - 02.07.2020
+
+- `gl_dart/gl_dart.dart` library name hotfix.
+
 ## [0.2.0] - 02.07.2020
 
 ### Added
