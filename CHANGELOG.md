@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.0-nullsafety.0] - 20.02.2021
+- Make package null safe
+
 ## [0.2.1] - 02.07.2020
 
 - `gl_dart/gl_dart.dart` library name hotfix.
