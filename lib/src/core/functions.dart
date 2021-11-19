@@ -1249,9 +1249,10 @@ class Gl {
             wglGetProcAddress("glCopyColorSubTable".toNativeUtf8())
                 .cast<NativeFunction<TglCopyColorSubTable_Native>>()
                 .asFunction();
-        this.copyColorTable = wglGetProcAddress("glCopyColorTable".toNativeUtf8())
-            .cast<NativeFunction<TglCopyColorTable_Native>>()
-            .asFunction();
+        this.copyColorTable =
+            wglGetProcAddress("glCopyColorTable".toNativeUtf8())
+                .cast<NativeFunction<TglCopyColorTable_Native>>()
+                .asFunction();
         this.getColorTable = wglGetProcAddress("glGetColorTable".toNativeUtf8())
             .cast<NativeFunction<TglGetColorTable_Native>>()
             .asFunction();
@@ -1272,9 +1273,10 @@ class Gl {
         this.histogram = wglGetProcAddress("glHistogram".toNativeUtf8())
             .cast<NativeFunction<TglHistogram_Native>>()
             .asFunction();
-        this.resetHistogram = wglGetProcAddress("glResetHistogram".toNativeUtf8())
-            .cast<NativeFunction<TglResetHistogram_Native>>()
-            .asFunction();
+        this.resetHistogram =
+            wglGetProcAddress("glResetHistogram".toNativeUtf8())
+                .cast<NativeFunction<TglResetHistogram_Native>>()
+                .asFunction();
         this.getHistogram = wglGetProcAddress("glGetHistogram".toNativeUtf8())
             .cast<NativeFunction<TglGetHistogram_Native>>()
             .asFunction();
@@ -1534,9 +1536,10 @@ class Gl {
             wglGetProcAddress("glMultTransposeMatrixf".toNativeUtf8())
                 .cast<NativeFunction<TglMultTransposeMatrixf_Native>>()
                 .asFunction();
-        this.sampleCoverage = wglGetProcAddress("glSampleCoverage".toNativeUtf8())
-            .cast<NativeFunction<TglSampleCoverage_Native>>()
-            .asFunction();
+        this.sampleCoverage =
+            wglGetProcAddress("glSampleCoverage".toNativeUtf8())
+                .cast<NativeFunction<TglSampleCoverage_Native>>()
+                .asFunction();
       } else {
         this.activeTexture = dylib
             .lookup<NativeFunction<TglActiveTexture_Native>>('glActiveTexture')
@@ -2460,65 +2463,74 @@ class Gl {
             wglGetProcAddress("glValidateProgram".toNativeUtf8())
                 .cast<NativeFunction<TglValidateProgram_Native>>()
                 .asFunction();
-        this.vertexAttrib1d = wglGetProcAddress("glVertexAttrib1d".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib1d_Native>>()
-            .asFunction();
+        this.vertexAttrib1d =
+            wglGetProcAddress("glVertexAttrib1d".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib1d_Native>>()
+                .asFunction();
         this.vertexAttrib1dv =
             wglGetProcAddress("glVertexAttrib1dv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib1dv_Native>>()
                 .asFunction();
-        this.vertexAttrib1f = wglGetProcAddress("glVertexAttrib1f".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib1f_Native>>()
-            .asFunction();
+        this.vertexAttrib1f =
+            wglGetProcAddress("glVertexAttrib1f".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib1f_Native>>()
+                .asFunction();
         this.vertexAttrib1fv =
             wglGetProcAddress("glVertexAttrib1fv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib1fv_Native>>()
                 .asFunction();
-        this.vertexAttrib1s = wglGetProcAddress("glVertexAttrib1s".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib1s_Native>>()
-            .asFunction();
+        this.vertexAttrib1s =
+            wglGetProcAddress("glVertexAttrib1s".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib1s_Native>>()
+                .asFunction();
         this.vertexAttrib1sv =
             wglGetProcAddress("glVertexAttrib1sv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib1sv_Native>>()
                 .asFunction();
-        this.vertexAttrib2d = wglGetProcAddress("glVertexAttrib2d".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib2d_Native>>()
-            .asFunction();
+        this.vertexAttrib2d =
+            wglGetProcAddress("glVertexAttrib2d".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib2d_Native>>()
+                .asFunction();
         this.vertexAttrib2dv =
             wglGetProcAddress("glVertexAttrib2dv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib2dv_Native>>()
                 .asFunction();
-        this.vertexAttrib2f = wglGetProcAddress("glVertexAttrib2f".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib2f_Native>>()
-            .asFunction();
+        this.vertexAttrib2f =
+            wglGetProcAddress("glVertexAttrib2f".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib2f_Native>>()
+                .asFunction();
         this.vertexAttrib2fv =
             wglGetProcAddress("glVertexAttrib2fv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib2fv_Native>>()
                 .asFunction();
-        this.vertexAttrib2s = wglGetProcAddress("glVertexAttrib2s".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib2s_Native>>()
-            .asFunction();
+        this.vertexAttrib2s =
+            wglGetProcAddress("glVertexAttrib2s".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib2s_Native>>()
+                .asFunction();
         this.vertexAttrib2sv =
             wglGetProcAddress("glVertexAttrib2sv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib2sv_Native>>()
                 .asFunction();
-        this.vertexAttrib3d = wglGetProcAddress("glVertexAttrib3d".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib3d_Native>>()
-            .asFunction();
+        this.vertexAttrib3d =
+            wglGetProcAddress("glVertexAttrib3d".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib3d_Native>>()
+                .asFunction();
         this.vertexAttrib3dv =
             wglGetProcAddress("glVertexAttrib3dv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib3dv_Native>>()
                 .asFunction();
-        this.vertexAttrib3f = wglGetProcAddress("glVertexAttrib3f".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib3f_Native>>()
-            .asFunction();
+        this.vertexAttrib3f =
+            wglGetProcAddress("glVertexAttrib3f".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib3f_Native>>()
+                .asFunction();
         this.vertexAttrib3fv =
             wglGetProcAddress("glVertexAttrib3fv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib3fv_Native>>()
                 .asFunction();
-        this.vertexAttrib3s = wglGetProcAddress("glVertexAttrib3s".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib3s_Native>>()
-            .asFunction();
+        this.vertexAttrib3s =
+            wglGetProcAddress("glVertexAttrib3s".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib3s_Native>>()
+                .asFunction();
         this.vertexAttrib3sv =
             wglGetProcAddress("glVertexAttrib3sv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib3sv_Native>>()
@@ -2555,16 +2567,18 @@ class Gl {
             wglGetProcAddress("glVertexAttrib4bv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib4bv_Native>>()
                 .asFunction();
-        this.vertexAttrib4d = wglGetProcAddress("glVertexAttrib4d".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib4d_Native>>()
-            .asFunction();
+        this.vertexAttrib4d =
+            wglGetProcAddress("glVertexAttrib4d".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib4d_Native>>()
+                .asFunction();
         this.vertexAttrib4dv =
             wglGetProcAddress("glVertexAttrib4dv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib4dv_Native>>()
                 .asFunction();
-        this.vertexAttrib4f = wglGetProcAddress("glVertexAttrib4f".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib4f_Native>>()
-            .asFunction();
+        this.vertexAttrib4f =
+            wglGetProcAddress("glVertexAttrib4f".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib4f_Native>>()
+                .asFunction();
         this.vertexAttrib4fv =
             wglGetProcAddress("glVertexAttrib4fv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib4fv_Native>>()
@@ -2573,9 +2587,10 @@ class Gl {
             wglGetProcAddress("glVertexAttrib4iv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib4iv_Native>>()
                 .asFunction();
-        this.vertexAttrib4s = wglGetProcAddress("glVertexAttrib4s".toNativeUtf8())
-            .cast<NativeFunction<TglVertexAttrib4s_Native>>()
-            .asFunction();
+        this.vertexAttrib4s =
+            wglGetProcAddress("glVertexAttrib4s".toNativeUtf8())
+                .cast<NativeFunction<TglVertexAttrib4s_Native>>()
+                .asFunction();
         this.vertexAttrib4sv =
             wglGetProcAddress("glVertexAttrib4sv".toNativeUtf8())
                 .cast<NativeFunction<TglVertexAttrib4sv_Native>>()
@@ -3026,9 +3041,10 @@ class Gl {
             wglGetProcAddress("glBindBufferRange".toNativeUtf8())
                 .cast<NativeFunction<TglBindBufferRange_Native>>()
                 .asFunction();
-        this.bindBufferBase = wglGetProcAddress("glBindBufferBase".toNativeUtf8())
-            .cast<NativeFunction<TglBindBufferBase_Native>>()
-            .asFunction();
+        this.bindBufferBase =
+            wglGetProcAddress("glBindBufferBase".toNativeUtf8())
+                .cast<NativeFunction<TglBindBufferBase_Native>>()
+                .asFunction();
         this.transformFeedbackVaryings =
             wglGetProcAddress("glTransformFeedbackVaryings".toNativeUtf8())
                 .cast<NativeFunction<TglTransformFeedbackVaryings_Native>>()
@@ -3194,9 +3210,10 @@ class Gl {
         this.clearBufferiv = wglGetProcAddress("glClearBufferiv".toNativeUtf8())
             .cast<NativeFunction<TglClearBufferiv_Native>>()
             .asFunction();
-        this.clearBufferuiv = wglGetProcAddress("glClearBufferuiv".toNativeUtf8())
-            .cast<NativeFunction<TglClearBufferuiv_Native>>()
-            .asFunction();
+        this.clearBufferuiv =
+            wglGetProcAddress("glClearBufferuiv".toNativeUtf8())
+                .cast<NativeFunction<TglClearBufferuiv_Native>>()
+                .asFunction();
         this.clearBufferfv = wglGetProcAddress("glClearBufferfv".toNativeUtf8())
             .cast<NativeFunction<TglClearBufferfv_Native>>()
             .asFunction();
@@ -3206,9 +3223,10 @@ class Gl {
         this.getStringi = wglGetProcAddress("glGetStringi".toNativeUtf8())
             .cast<NativeFunction<TglGetStringi_Native>>()
             .asFunction();
-        this.isRenderbuffer = wglGetProcAddress("glIsRenderbuffer".toNativeUtf8())
-            .cast<NativeFunction<TglIsRenderbuffer_Native>>()
-            .asFunction();
+        this.isRenderbuffer =
+            wglGetProcAddress("glIsRenderbuffer".toNativeUtf8())
+                .cast<NativeFunction<TglIsRenderbuffer_Native>>()
+                .asFunction();
         this.bindRenderbuffer =
             wglGetProcAddress("glBindRenderbuffer".toNativeUtf8())
                 .cast<NativeFunction<TglBindRenderbuffer_Native>>()
@@ -3269,9 +3287,10 @@ class Gl {
             .cast<
                 NativeFunction<TglGetFramebufferAttachmentParameteriv_Native>>()
             .asFunction();
-        this.generateMipmap = wglGetProcAddress("glGenerateMipmap".toNativeUtf8())
-            .cast<NativeFunction<TglGenerateMipmap_Native>>()
-            .asFunction();
+        this.generateMipmap =
+            wglGetProcAddress("glGenerateMipmap".toNativeUtf8())
+                .cast<NativeFunction<TglGenerateMipmap_Native>>()
+                .asFunction();
         this.blitFramebuffer =
             wglGetProcAddress("glBlitFramebuffer".toNativeUtf8())
                 .cast<NativeFunction<TglBlitFramebuffer_Native>>()
@@ -3284,9 +3303,10 @@ class Gl {
             wglGetProcAddress("glFramebufferTextureLayer".toNativeUtf8())
                 .cast<NativeFunction<TglFramebufferTextureLayer_Native>>()
                 .asFunction();
-        this.mapBufferRange = wglGetProcAddress("glMapBufferRange".toNativeUtf8())
-            .cast<NativeFunction<TglMapBufferRange_Native>>()
-            .asFunction();
+        this.mapBufferRange =
+            wglGetProcAddress("glMapBufferRange".toNativeUtf8())
+                .cast<NativeFunction<TglMapBufferRange_Native>>()
+                .asFunction();
         this.flushMappedBufferRange =
             wglGetProcAddress("glFlushMappedBufferRange".toNativeUtf8())
                 .cast<NativeFunction<TglFlushMappedBufferRange_Native>>()
@@ -3762,9 +3782,10 @@ class Gl {
         this.deleteSync = wglGetProcAddress("glDeleteSync".toNativeUtf8())
             .cast<NativeFunction<TglDeleteSync_Native>>()
             .asFunction();
-        this.clientWaitSync = wglGetProcAddress("glClientWaitSync".toNativeUtf8())
-            .cast<NativeFunction<TglClientWaitSync_Native>>()
-            .asFunction();
+        this.clientWaitSync =
+            wglGetProcAddress("glClientWaitSync".toNativeUtf8())
+                .cast<NativeFunction<TglClientWaitSync_Native>>()
+                .asFunction();
         this.waitSync = wglGetProcAddress("glWaitSync".toNativeUtf8())
             .cast<NativeFunction<TglWaitSync_Native>>()
             .asFunction();
@@ -3888,9 +3909,10 @@ class Gl {
         this.genSamplers = wglGetProcAddress("glGenSamplers".toNativeUtf8())
             .cast<NativeFunction<TglGenSamplers_Native>>()
             .asFunction();
-        this.deleteSamplers = wglGetProcAddress("glDeleteSamplers".toNativeUtf8())
-            .cast<NativeFunction<TglDeleteSamplers_Native>>()
-            .asFunction();
+        this.deleteSamplers =
+            wglGetProcAddress("glDeleteSamplers".toNativeUtf8())
+                .cast<NativeFunction<TglDeleteSamplers_Native>>()
+                .asFunction();
         this.isSampler = wglGetProcAddress("glIsSampler".toNativeUtf8())
             .cast<NativeFunction<TglIsSampler_Native>>()
             .asFunction();
@@ -4303,9 +4325,10 @@ class Gl {
             wglGetProcAddress("glMinSampleShading".toNativeUtf8())
                 .cast<NativeFunction<TglMinSampleShading_Native>>()
                 .asFunction();
-        this.blendEquationi = wglGetProcAddress("glBlendEquationi".toNativeUtf8())
-            .cast<NativeFunction<TglBlendEquationi_Native>>()
-            .asFunction();
+        this.blendEquationi =
+            wglGetProcAddress("glBlendEquationi".toNativeUtf8())
+                .cast<NativeFunction<TglBlendEquationi_Native>>()
+                .asFunction();
         this.blendEquationSeparatei =
             wglGetProcAddress("glBlendEquationSeparatei".toNativeUtf8())
                 .cast<NativeFunction<TglBlendEquationSeparatei_Native>>()
@@ -4961,9 +4984,10 @@ class Gl {
             wglGetProcAddress("glGetVertexAttribLdv".toNativeUtf8())
                 .cast<NativeFunction<TglGetVertexAttribLdv_Native>>()
                 .asFunction();
-        this.viewportArrayv = wglGetProcAddress("glViewportArrayv".toNativeUtf8())
-            .cast<NativeFunction<TglViewportArrayv_Native>>()
-            .asFunction();
+        this.viewportArrayv =
+            wglGetProcAddress("glViewportArrayv".toNativeUtf8())
+                .cast<NativeFunction<TglViewportArrayv_Native>>()
+                .asFunction();
         this.viewportIndexedf =
             wglGetProcAddress("glViewportIndexedf".toNativeUtf8())
                 .cast<NativeFunction<TglViewportIndexedf_Native>>()
@@ -4975,9 +4999,10 @@ class Gl {
         this.scissorArrayv = wglGetProcAddress("glScissorArrayv".toNativeUtf8())
             .cast<NativeFunction<TglScissorArrayv_Native>>()
             .asFunction();
-        this.scissorIndexed = wglGetProcAddress("glScissorIndexed".toNativeUtf8())
-            .cast<NativeFunction<TglScissorIndexed_Native>>()
-            .asFunction();
+        this.scissorIndexed =
+            wglGetProcAddress("glScissorIndexed".toNativeUtf8())
+                .cast<NativeFunction<TglScissorIndexed_Native>>()
+                .asFunction();
         this.scissorIndexedv =
             wglGetProcAddress("glScissorIndexedv".toNativeUtf8())
                 .cast<NativeFunction<TglScissorIndexedv_Native>>()
@@ -5544,9 +5569,10 @@ class Gl {
             wglGetProcAddress("glShaderStorageBlockBinding".toNativeUtf8())
                 .cast<NativeFunction<TglShaderStorageBlockBinding_Native>>()
                 .asFunction();
-        this.texBufferRange = wglGetProcAddress("glTexBufferRange".toNativeUtf8())
-            .cast<NativeFunction<TglTexBufferRange_Native>>()
-            .asFunction();
+        this.texBufferRange =
+            wglGetProcAddress("glTexBufferRange".toNativeUtf8())
+                .cast<NativeFunction<TglTexBufferRange_Native>>()
+                .asFunction();
         this.texStorage2DMultisample =
             wglGetProcAddress("glTexStorage2DMultisample".toNativeUtf8())
                 .cast<NativeFunction<TglTexStorage2DMultisample_Native>>()
@@ -5598,21 +5624,24 @@ class Gl {
             wglGetProcAddress("glGetDebugMessageLog".toNativeUtf8())
                 .cast<NativeFunction<TglGetDebugMessageLog_Native>>()
                 .asFunction();
-        this.pushDebugGroup = wglGetProcAddress("glPushDebugGroup".toNativeUtf8())
-            .cast<NativeFunction<TglPushDebugGroup_Native>>()
-            .asFunction();
+        this.pushDebugGroup =
+            wglGetProcAddress("glPushDebugGroup".toNativeUtf8())
+                .cast<NativeFunction<TglPushDebugGroup_Native>>()
+                .asFunction();
         this.popDebugGroup = wglGetProcAddress("glPopDebugGroup".toNativeUtf8())
             .cast<NativeFunction<TglPopDebugGroup_Native>>()
             .asFunction();
         this.objectLabel = wglGetProcAddress("glObjectLabel".toNativeUtf8())
             .cast<NativeFunction<TglObjectLabel_Native>>()
             .asFunction();
-        this.getObjectLabel = wglGetProcAddress("glGetObjectLabel".toNativeUtf8())
-            .cast<NativeFunction<TglGetObjectLabel_Native>>()
-            .asFunction();
-        this.objectPtrLabel = wglGetProcAddress("glObjectPtrLabel".toNativeUtf8())
-            .cast<NativeFunction<TglObjectPtrLabel_Native>>()
-            .asFunction();
+        this.getObjectLabel =
+            wglGetProcAddress("glGetObjectLabel".toNativeUtf8())
+                .cast<NativeFunction<TglGetObjectLabel_Native>>()
+                .asFunction();
+        this.objectPtrLabel =
+            wglGetProcAddress("glObjectPtrLabel".toNativeUtf8())
+                .cast<NativeFunction<TglObjectPtrLabel_Native>>()
+                .asFunction();
         this.getObjectPtrLabel =
             wglGetProcAddress("glGetObjectPtrLabel".toNativeUtf8())
                 .cast<NativeFunction<TglGetObjectPtrLabel_Native>>()
@@ -5917,9 +5946,10 @@ class Gl {
             wglGetProcAddress("glClearNamedBufferSubData".toNativeUtf8())
                 .cast<NativeFunction<TglClearNamedBufferSubData_Native>>()
                 .asFunction();
-        this.mapNamedBuffer = wglGetProcAddress("glMapNamedBuffer".toNativeUtf8())
-            .cast<NativeFunction<TglMapNamedBuffer_Native>>()
-            .asFunction();
+        this.mapNamedBuffer =
+            wglGetProcAddress("glMapNamedBuffer".toNativeUtf8())
+                .cast<NativeFunction<TglMapNamedBuffer_Native>>()
+                .asFunction();
         this.mapNamedBufferRange =
             wglGetProcAddress("glMapNamedBufferRange".toNativeUtf8())
                 .cast<NativeFunction<TglMapNamedBufferRange_Native>>()
@@ -6039,9 +6069,10 @@ class Gl {
                 "glGetNamedRenderbufferParameteriv".toNativeUtf8())
             .cast<NativeFunction<TglGetNamedRenderbufferParameteriv_Native>>()
             .asFunction();
-        this.createTextures = wglGetProcAddress("glCreateTextures".toNativeUtf8())
-            .cast<NativeFunction<TglCreateTextures_Native>>()
-            .asFunction();
+        this.createTextures =
+            wglGetProcAddress("glCreateTextures".toNativeUtf8())
+                .cast<NativeFunction<TglCreateTextures_Native>>()
+                .asFunction();
         this.textureBuffer = wglGetProcAddress("glTextureBuffer".toNativeUtf8())
             .cast<NativeFunction<TglTextureBuffer_Native>>()
             .asFunction();
@@ -6225,9 +6256,10 @@ class Gl {
             wglGetProcAddress("glGetVertexArrayIndexed64iv".toNativeUtf8())
                 .cast<NativeFunction<TglGetVertexArrayIndexed64iv_Native>>()
                 .asFunction();
-        this.createSamplers = wglGetProcAddress("glCreateSamplers".toNativeUtf8())
-            .cast<NativeFunction<TglCreateSamplers_Native>>()
-            .asFunction();
+        this.createSamplers =
+            wglGetProcAddress("glCreateSamplers".toNativeUtf8())
+                .cast<NativeFunction<TglCreateSamplers_Native>>()
+                .asFunction();
         this.createProgramPipelines =
             wglGetProcAddress("glCreateProgramPipelines".toNativeUtf8())
                 .cast<NativeFunction<TglCreateProgramPipelines_Native>>()
@@ -6283,9 +6315,10 @@ class Gl {
         this.getnUniformiv = wglGetProcAddress("glGetnUniformiv".toNativeUtf8())
             .cast<NativeFunction<TglGetnUniformiv_Native>>()
             .asFunction();
-        this.getnUniformuiv = wglGetProcAddress("glGetnUniformuiv".toNativeUtf8())
-            .cast<NativeFunction<TglGetnUniformuiv_Native>>()
-            .asFunction();
+        this.getnUniformuiv =
+            wglGetProcAddress("glGetnUniformuiv".toNativeUtf8())
+                .cast<NativeFunction<TglGetnUniformuiv_Native>>()
+                .asFunction();
         this.readnPixels = wglGetProcAddress("glReadnPixels".toNativeUtf8())
             .cast<NativeFunction<TglReadnPixels_Native>>()
             .asFunction();
@@ -6298,9 +6331,10 @@ class Gl {
         this.getnMapiv = wglGetProcAddress("glGetnMapiv".toNativeUtf8())
             .cast<NativeFunction<TglGetnMapiv_Native>>()
             .asFunction();
-        this.getnPixelMapfv = wglGetProcAddress("glGetnPixelMapfv".toNativeUtf8())
-            .cast<NativeFunction<TglGetnPixelMapfv_Native>>()
-            .asFunction();
+        this.getnPixelMapfv =
+            wglGetProcAddress("glGetnPixelMapfv".toNativeUtf8())
+                .cast<NativeFunction<TglGetnPixelMapfv_Native>>()
+                .asFunction();
         this.getnPixelMapuiv =
             wglGetProcAddress("glGetnPixelMapuiv".toNativeUtf8())
                 .cast<NativeFunction<TglGetnPixelMapuiv_Native>>()
@@ -6313,9 +6347,10 @@ class Gl {
             wglGetProcAddress("glGetnPolygonStipple".toNativeUtf8())
                 .cast<NativeFunction<TglGetnPolygonStipple_Native>>()
                 .asFunction();
-        this.getnColorTable = wglGetProcAddress("glGetnColorTable".toNativeUtf8())
-            .cast<NativeFunction<TglGetnColorTable_Native>>()
-            .asFunction();
+        this.getnColorTable =
+            wglGetProcAddress("glGetnColorTable".toNativeUtf8())
+                .cast<NativeFunction<TglGetnColorTable_Native>>()
+                .asFunction();
         this.getnConvolutionFilter =
             wglGetProcAddress("glGetnConvolutionFilter".toNativeUtf8())
                 .cast<NativeFunction<TglGetnConvolutionFilter_Native>>()
@@ -6330,9 +6365,10 @@ class Gl {
         this.getnMinmax = wglGetProcAddress("glGetnMinmax".toNativeUtf8())
             .cast<NativeFunction<TglGetnMinmax_Native>>()
             .asFunction();
-        this.textureBarrier = wglGetProcAddress("glTextureBarrier".toNativeUtf8())
-            .cast<NativeFunction<TglTextureBarrier_Native>>()
-            .asFunction();
+        this.textureBarrier =
+            wglGetProcAddress("glTextureBarrier".toNativeUtf8())
+                .cast<NativeFunction<TglTextureBarrier_Native>>()
+                .asFunction();
       } else {
         this.clipControl = dylib
             .lookup<NativeFunction<TglClipControl_Native>>('glClipControl')
@@ -7800,7 +7836,8 @@ class Gl {
   late TglGetFloati_v_Func getFloati_v;
   late TglGetDoublei_v_Func getDoublei_v;
   late TglDrawArraysInstancedBaseInstance_Func drawArraysInstancedBaseInstance;
-  late TglDrawElementsInstancedBaseInstance_Func drawElementsInstancedBaseInstance;
+  late TglDrawElementsInstancedBaseInstance_Func
+      drawElementsInstancedBaseInstance;
   late TglDrawElementsInstancedBaseVertexBaseInstance_Func
       drawElementsInstancedBaseVertexBaseInstance;
   late TglGetInternalformativ_Func getInternalformativ;
@@ -7896,7 +7933,8 @@ class Gl {
   late TglNamedFramebufferDrawBuffers_Func namedFramebufferDrawBuffers;
   late TglNamedFramebufferReadBuffer_Func namedFramebufferReadBuffer;
   late TglInvalidateNamedFramebufferData_Func invalidateNamedFramebufferData;
-  late TglInvalidateNamedFramebufferSubData_Func invalidateNamedFramebufferSubData;
+  late TglInvalidateNamedFramebufferSubData_Func
+      invalidateNamedFramebufferSubData;
   late TglClearNamedFramebufferiv_Func clearNamedFramebufferiv;
   late TglClearNamedFramebufferuiv_Func clearNamedFramebufferuiv;
   late TglClearNamedFramebufferfv_Func clearNamedFramebufferfv;

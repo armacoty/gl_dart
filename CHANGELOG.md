@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.0+1] - 19.11.2021
+
+- Fix formatting
+
 ## [1.0.0] - 19.11.2021
 
 - Bump `package:ffi` version to `1.1.2`
